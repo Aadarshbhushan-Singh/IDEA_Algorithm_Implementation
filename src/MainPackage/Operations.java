@@ -96,7 +96,6 @@ public class Operations {
         String finalResult = result.reverse().toString();
         
         //Removing extra carry numbers
-        
         int len = a.length();
         
         if(finalResult.length() > len) {
@@ -107,6 +106,15 @@ public class Operations {
     }
 	
 	
+	//This function is used to multiply binary numbers
+	 static void multiplyBinaryNumbers(String binaryNum1, String binaryNum2)
+	    {
+	        int num1 = Integer.parseInt(binaryNum1, 2);
+	        int num2 = Integer.parseInt(binaryNum2, 2);
+	        int product = num1 * num2;
+	        System.out.println(Integer.toBinaryString(product));
+	 }
+	 
 	
 	
 }

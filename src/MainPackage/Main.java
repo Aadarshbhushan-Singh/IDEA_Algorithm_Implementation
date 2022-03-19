@@ -11,6 +11,7 @@ public class Main {
 		
 		System.out.println(Operations.addBinary("1010", "1110"));
 
+		Operations.multiplyBinaryNumbers("11011", "101");
 	}
 	
 }	
