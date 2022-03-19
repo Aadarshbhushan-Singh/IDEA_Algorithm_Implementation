@@ -113,8 +113,13 @@ public class Operations {
 	        int num2 = Integer.parseInt(binaryNum2, 2);
 	        int product = num1 * num2;
 	        System.out.println(Integer.toBinaryString(product));
-	 }
+	 }	
 	 
-	
-	
+	 //This function is used to divide binary numbers
+	 static void divideBInaryNumbers(String binaryNum1, String binaryNum2) {
+		 int num1 = Integer.parseInt(binaryNum1, 2);
+	        int num2 = Integer.parseInt(binaryNum2, 2);
+	        int product = num1 / num2;
+	        System.out.println(Integer.toBinaryString(product));
+	 }
 }
